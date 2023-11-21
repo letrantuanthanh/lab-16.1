@@ -1,0 +1,15 @@
+<%- include('./head.ejs') %>
+
+<link rel="stylesheet" href="/css/product.css" />
+
+<%- include('./navigation.ejs') %>
+
+<main>
+  <% if (prods.length > 0) { %>
+    <div class="grid"><%- include('./product.ejs') %></div>
+  <% } else { %>
+    <h1>No Products Found!</h1>
+  <% } %>
+</main>
+
+<%- include('./end.ejs') %>
