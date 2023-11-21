@@ -8,6 +8,9 @@
     "start": "nodemon app.js",
     "start-server": "node app.js"
   },
+  "engines": {
+  "node": ">=14.20.1"
+},
   "author": "Maximilian Schwarzmüller",
   "license": "ISC",
   "devDependencies": {
